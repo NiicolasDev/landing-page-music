@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/css/normalize.css">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <title>Sether</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-title_header">
+            <h1>ROLAND <span class="text-black_header"> PIANO</span></h1>
+        </div>
+        <div class="container-piano">
+            <div class="container-piano_3d">
+                <div class="box-controls d-flex justify-content-around align-items-center">
+                    <div class="container-bafle">
+                        <h4 class="text-white">ROLAND</h4>
+                        <button class="prueba bg-dark"></button>
+                        <button class="prueba bg-dark"></button>
+                        <button class="prueba bg-dark"></button>
+                        <button class="prueba bg-dark"></button>
+                    </div>
+                    <div class="container-bafle2"></div>
+                    <div class="container-bafle">
+                        <!-- <button class="prueba2 bg-dark"></button>
+                        <button class="prueba2 bg-dark"></button>
+                        <button class="prueba2 bg-dark"></button>
+                        <button class="prueba2 bg-dark"></button>
+                        <button class="prueba2 bg-dark"></button> -->
+                        <button class="prueba3 bg-dark"></button>
+                        <button class="prueba3 bg-dark"></button>
+                        <button class="prueba3 bg-dark"></button>
+                        <button class="prueba3 bg-dark"></button>
+                    </div>
+                </div>
+                <div class="box-keys">
+                    <button onclick="sound(174.614)" class="key-a btn-controls"></button>
+                    <button onclick="sound(184.997)" class="key-dark btn-controls bg-dark"></button>
+                    <button onclick="sound(195.998)" class="key-a"></button>
+                    <button onclick="sound(207.652)" class="key-dark bg-dark"></button>
+                    <button onclick="sound(220.000)" class="key-a"></button>
+                    <button onclick="sound(246.942)" class="key-a"></button>
+                    <button onclick="sound(233.082)" class="key-dark bg-dark"></button>
+                    <button onclick="sound(261.626)" class="key-a"></button>
+                    <button onclick="sound(184.997)" class="key-dark bg-dark"></button>
+                    <button onclick="sound(293.665)" class="key-a"></button>
+                    <button onclick="sound(207.652)" class="key-dark bg-dark"></button>
+                    <button onclick="sound(329.628)" class="key-a"></button>
+                    <button onclick="sound(174.614)" class="key-a btn-controls"></button>
+                    <button onclick="sound(233.082)" class="key-dark bg-dark"></button>
+                    <button onclick="sound(195.998)" class="key-a"></button>
+                    <button onclick="sound(277.183)" class="key-dark bg-dark"></button>
+                    <button onclick="sound(220.000)" class="key-a"></button>
+                    <button onclick="sound(311.127)" class="key-dark bg-dark"></button>
+                    <button onclick="sound(246.942)" class="key-a"></button>
+                    <button onclick="sound(261.626)" class="key-a"></button>
+                    <button onclick="sound(277.183)" class="key-dark bg-dark"></button>
+                    <button onclick="sound(293.665)" class="key-a"></button>
+                    <button onclick="sound(311.127)" class="key-dark bg-dark"></button>
+                    <button onclick="sound(329.628)" class="key-a"></button>
+
+                </div>
+            </div>
+        </div>
+        <nav class="navbar  d-flex justify-content-around align-items-center">
+            <div class="logo text-white">
+                <a href=""><i class="fab fa-soundcloud">Sether</i></a>
+            </div>
+            <div class="bar"><i class="fas fa-grip-lines"></i></div>
+            <div class="navigation-main">
+                <a href="">Inicio</a>
+                <a href="">Servicios</a>
+                <a href="">Metodos de Pago</a>
+            </div>
+        </nav>
+    </header>
+    <div class="container-services">
+        <div class="icon-services">
+            <i class="fas fa-music"></i>
+        </div>
+        <h2 class="text-center text-services">Producción de demostración de voz</h2>
+        <p class="text-center">Ya sea que sea un aspirante a locutor o un talento experimentado, ¡podemos ayudar a darle
+            a su carrera un impulso de adrenalina con una demostración de voz increíble! </p>
+    </div>
+    <div class="container-services">
+        <div class="icon-services">
+            <i class="fas fa-podcast"></i>
+        </div>
+        <h2 class="text-center text-services">Voces en off</h2>
+        <p class="text-center">¡Las voces en off de alta calidad listas para retransmisiones están a solo un clic de
+            distancia! ¡Póngase en contacto con Decorated Air Studios hoy para que Scott y Susan expresen su próximo
+            proyecto!</p>
+    </div>
+    <div class="container-services">
+        <div class="icon-services">
+            <i class="fas fa-headphones"></i>
+        </div>
+        <h2 class="text-center text-services">Diseño de sonido</h2>
+        <p class="text-center">¡Dale nueva vida a tu video explicativo, anuncio de transmisión, comercial de radio o
+            anuncio de TV con un diseño de sonido impresionante de nuestra parte!</p>
+    </div>
+    <div class="container-products">
+        <h2 class="text-center text-products">Productos</h2>
+        <div class="box-filter">
+            <input type="text" class="form-control" placeholder="Buscar">
+        </div>
+        <div class="box-products d-flex flex-wrap justify-content-center">
+            <div class="container-head">
+                <div class="text-new bg-danger">
+                    <span>New</span>
+                </div>
+                <div class="container-img_product">
+                    <img src="assets/img/pianoooo.png" alt="">
+                </div>
+                <div class="container-body d-flex justify-content-between">
+                    <div class="container-body_description  d-flex flex-column">
+                        <span class="text-description">Teclado Electrónico</span>
+                        <span class="text-price">$530.000</span>
+                        <span class="starts">★★★<span class="start-disabled">★★★</span> </span>
+                    </div>
+                    <div class="container-body_shoping d-flex align-items-center">
+                        <a href=""><i class="fas fa-cart-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-head">
+                <div class="text-new bg-success">
+                    <span>New</span>
+                </div>
+                <div class="container-img_product">
+                    <img src="assets/img/pianoooo.png" alt="">
+                </div>
+                <div class="container-body d-flex justify-content-between">
+                    <div class="container-body_description  d-flex flex-column">
+                        <span class="text-description">Teclado Electrónico</span>
+                        <span class="text-price">$530.000</span>
+                        <span class="starts">★★★<span class="start-disabled">★★★</span> </span>
+                    </div>
+                    <div class="container-body_shoping d-flex align-items-center">
+                        <a href=""><i class="fas fa-cart-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-head">
+                <div class="container-img_product">
+                    <img src="assets/img/pianoooo.png" alt="">
+                </div>
+                <div class="container-body d-flex justify-content-between">
+                    <div class="container-body_description  d-flex flex-column">
+                        <span class="text-description">Teclado Electrónico</span>
+                        <span class="text-price">$530.000</span>
+                        <span class="starts">★★★<span class="start-disabled">★★★</span> </span>
+                    </div>
+                    <div class="container-body_shoping d-flex align-items-center">
+                        <a href=""><i class="fas fa-cart-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-head">
+                <div class="text-new bg-warning">
+                    <span>New</span>
+                </div>
+                <div class="container-img_product">
+                    <img src="assets/img/pianoooo.png" alt="">
+                </div>
+                <div class="container-body d-flex justify-content-between">
+                    <div class="container-body_description  d-flex flex-column">
+                        <span class="text-description">Teclado Electrónico</span>
+                        <span class="text-price">$530.000</span>
+                        <span class="starts">★★★<span class="start-disabled">★★★</span> </span>
+                    </div>
+                    <div class="container-body_shoping d-flex align-items-center">
+                        <a href=""><i class="fas fa-cart-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-head">
+                <div class="container-img_product">
+                    <img src="assets/img/pianoooo.png" alt="">
+                </div>
+                <div class="container-body d-flex justify-content-between">
+                    <div class="container-body_description  d-flex flex-column">
+                        <span class="text-description">Teclado Electrónico</span>
+                        <span class="text-price">$530.000</span>
+                        <span class="starts">★★★<span class="start-disabled">★★★</span> </span>
+                    </div>
+                    <div class="container-body_shoping d-flex align-items-center">
+                        <a href=""><i class="fas fa-cart-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-head">
+                <div class="text-new bg-info">
+                    <span>New</span>
+                </div>
+                <div class="container-img_product">
+                    <img src="assets/img/pianoooo.png" alt="">
+                </div>
+                <div class="container-body d-flex justify-content-between">
+                    <div class="container-body_description d-flex flex-column">
+                        <span class="text-description">Teclado Electrónico</span>
+                        <span class="text-price">$530.000</span>
+                        <span class="starts">★★★<span class="start-disabled">★★★</span> </span>
+                    </div>
+                    <div class="container-body_shoping d-flex align-items-center">
+                        <a href=""><i class="fas fa-cart-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-head">
+                <div class="container-img_product">
+                    <img src="assets/img/pianoooo.png" alt="">
+                </div>
+                <div class="container-body d-flex justify-content-between">
+                    <div class="container-body_description d-flex flex-column">
+                        <span class="text-description">Teclado Electrónico</span>
+                        <span class="text-price">$530.000</span>
+                        <span class="starts">★★★<span class="start-disabled">★★★</span> </span>
+                    </div>
+                    <div class="container-body_shoping d-flex align-items-center">
+                        <a href=""><i class="fas fa-cart-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-head">
+                <div class="text-new bg-danger">
+                    <span>New</span>
+                </div>
+                <div class="container-img_product">
+                    <img src="assets/img/pianoooo.png" alt="">
+                </div>
+                <div class="container-body d-flex justify-content-between">
+                    <div class="container-body_description d-flex flex-column">
+                        <span class="text-description">Teclado Electrónico</span>
+                        <span class="text-price">$530.000</span>
+                        <span class="starts">★★★<span class="start-disabled">★★★</span> </span>
+                    </div>
+                    <div class="container-body_shoping d-flex align-items-center">
+                        <a href=""><i class="fas fa-cart-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-paymentMethods">
+        <div class="container-paymentMethods-img">
+            <h2 class="text-center mb-4 text-black">Metodos de Pago</h2>
+            <div class="box-paymentMethods d-flex align-items-center justify-content-center">
+                <div class="box-pay">
+                    <a href=""><i class="fab fa-cc-mastercard"></i></a>
+                    <a href=""><i class="fab fa-cc-visa"></i></a>
+                    <a href=""><i class="fab fa-cc-discover"></i></a>
+                    <a href=""><i class="fab fa-cc-apple-pay"></i></a>
+                    <a href=""><i class="fab fa-cc-amex"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="container-footer d-flex justify-content-center align-items-center flex-wrap gap-3">
+            <div class="container-about d-flex flex-column">
+                <a href="" class="text-center mt-1"><i class="fab fa-soundcloud icon2">Sether</i></a>
+                <div class="container-giphy mt-2 d-flex"></div>
+            </div>
+            <div class="container-links">
+                <nav class="container-links_footer d-flex flex-column align-items-center">
+                    <a href="" class="mt-3"><i class="fas fa-link">LINKS</i></a>
+                    <a href="">Inicio</a>
+                    <a href="">Servicios</a>
+                    <a href="">Metodos de Pago</a>
+                    <a href="">Contacto</a>
+                    <a href="">Politicas de privacidad</a>
+                </nav>
+            </div>
+            <div class="container-contact d-flex flex-column">
+                <a href="" class="text-center mt-4"><i class="fas fa-user">CONTACTO</i></a>
+                <form action="post">
+                    <input type="email" name="" id="" placeholder="Correo" class="form-control input-email">
+                    <textarea name="mensaje" id="" cols="30" rows="2" class="form-control input-mesage"
+                        placeholder="Mensaje"></textarea>
+                    <input type="submit" name="" id="" placeholder="meensaje"
+                        class="btn btn-controls btn-input text-white">
+                </form>
+            </div>
+            <div class="container-social d-flex justify-content-center align-items-center flex-wrap gap-5">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="copry d-flex justify-content-between">
+            <p class="text-white">Copyright 2021. All rights reserved.</p>
+            <p class="text-2 text-white">Developed by <a href="" class="developed">NicolásDev</a></p>
+            <p class="text-white">Colombia</p>
+        </div>
+    </footer>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
